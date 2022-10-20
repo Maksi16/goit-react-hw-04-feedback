@@ -1,8 +1,8 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import { Sections, Titel } from './Section.styled';
 
 export const Section = ({ titel, children }) => {
+  //console.log(children);
   return (
     <Sections>
       <Titel>{titel}</Titel>
